@@ -28,7 +28,7 @@ body {
 .advice-card {
    text-align: center; 
    background-color:hsl(217, 14%, 32%);
-   width: 40%;
+   width: 30%;
     border-radius: 16px;
     font-size: 1.3em;
     height: 30%;
@@ -49,7 +49,7 @@ body {
 
 .middile-img  {
     text-align: center;
-   height: 8%;
+   height: 5%;
 
 }
 
@@ -57,9 +57,7 @@ body {
     color: hsl(150, 90%, 64%);
 }
 
-#advice {
-    padding: 5px;
-}
+
 
 .attribution {
     text-align: center;
@@ -156,6 +154,9 @@ body {
 
 
 }
+
+
+
 
 
 
