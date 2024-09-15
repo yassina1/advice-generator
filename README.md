@@ -27,7 +27,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/advice-generator.git
+git clone [https://github.com/your-username/advice-generator.git](https://yassina1.github.io/advice-generator/)
 Navigate to the project directory:
 
 bash
