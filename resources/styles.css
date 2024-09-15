@@ -7,57 +7,47 @@ body {
     font-style: normal;
 }
 
-
 .container {
     width: 80%;
-    max-width:  1440px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.advice-container{
+.advice-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: column; /* Changed to column to align with typical card layout */
 }
 
 .advice-card {
-   text-align: center; 
-   background-color:hsl(217, 14%, 32%);
-   width: 30%;
+    text-align: center; 
+    background-color: hsl(217, 14%, 32%);
+    width: 30%;
     border-radius: 16px;
     font-size: 1.3em;
-    height: 30%;
     padding: 75px;
+    padding-bottom: 20px;
 }
 
 .advice-card p {
     font-weight: bold;
-  
 }
 
 .advice-card span {
-    font-size: 0.4em ;
-    margin-bottom: 0 auto;
+    font-size: 0.4em;
     font-weight: bold;
     letter-spacing: 5px;
-}
-
-.middile-img  {
-    text-align: center;
-    height: 3%;
-
-}
-
-.advice-card span {
     color: hsl(150, 90%, 64%);
 }
 
-
+.middile-img {
+    text-align: center;
+    height: 12px; /* Adjust height as necessary */
+}
 
 .attribution {
     text-align: center;
@@ -65,95 +55,61 @@ body {
 }
 
 .buttonBox {
-   position: relative;
-   top: 90px;
+    margin-top: 20px; /* Adjusted to maintain spacing without shifting container */
+    position: relative;
+    top: 50px;
 }
 
 .dice {
-    background-color:  hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%);
     border: none;
     border-radius: 50%;
     padding: 15px;
     cursor: pointer;
- 
 }
 
 .dice:hover {
-    background-color:  hsl(150, 79%, 79%);
+    background-color: hsl(150, 79%, 79%);
     transition: all 400ms ease;
 }
 
-
 @media screen and (max-width: 1440px) {
     .advice-card {
-        text-align: center; 
-        background-color:hsl(217, 14%, 32%);
         width: 40%;
-         border-radius: 16px;
+        padding: 45px;
+    }
 
-         height: 30%;
-         padding: 45px;
-     }
-
-     .advice-card p {
-        font-weight: bold;
+    .advice-card p {
         font-size: 0.9em;
     }
 
-    .middile-img  {
-        text-align: center;
-
-    
+    .middile-img {
+        height: 6px; /* Adjust as necessary */
     }
 
-    .button-img  {
-        position: relative;
-        right: 232px;
-        background: none;
-        top: 150px;
-        background: none;
-    
-    }
-    
     .buttonBox {
+        margin-top: 20px; /* Adjust to maintain consistent spacing */
         position: relative;
         top: 70px;
-     }
-
-
+    }
 }
 
-
-@media screen and (max-width: 640px){ 
+@media screen and (max-width: 640px) { 
     .advice-card {
-        text-align: center; 
-        background-color:hsl(217, 14%, 32%);
-        width: 50%;
-         border-radius: 16px;
-
-         height: 24%;
-         padding: 55px;
-     }
+        width: 60%;
+        height: auto; /* Adjust height as necessary */
+        padding: 65px;
+    }
     
     .advice-card p {
-        font-weight: bold;
         font-size: 0.7em;
     }
 
-    .middile-img  {
-        text-align: center;
-        
-       height: 6px;
-    
+    .middile-img {
+        height: 6px; /* Adjust height as necessary */
     }
 
     .buttonBox {
-        position: relative;
-        top: 40px;
-     }
-
-
+        margin-top: 20px; /* Adjust to maintain consistent spacing */
+    }
 }
-
-
-
